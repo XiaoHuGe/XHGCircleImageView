@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8E32CCA1CABC46C006CCC51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CC91CABC46C006CCC51 /* main.m */; };
+		E8E32CCD1CABC46C006CCC51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CCC1CABC46C006CCC51 /* AppDelegate.m */; };
+		E8E32CD01CABC46C006CCC51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CCF1CABC46C006CCC51 /* ViewController.m */; };
+		E8E32CD31CABC46C006CCC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E32CD11CABC46C006CCC51 /* Main.storyboard */; };
+		E8E32CD51CABC46C006CCC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E32CD41CABC46C006CCC51 /* Assets.xcassets */; };
+		E8E32CD81CABC46C006CCC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E32CD61CABC46C006CCC51 /* LaunchScreen.storyboard */; };
+		E8E32CE31CABC46D006CCC51 /* XHGCircleImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CE21CABC46D006CCC51 /* XHGCircleImageViewTests.m */; };
+		E8E32CEE1CABC46D006CCC51 /* XHGCircleImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CED1CABC46D006CCC51 /* XHGCircleImageViewUITests.m */; };
+		E8E32D001CABC526006CCC51 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CFD1CABC526006CCC51 /* UIImage+Image.m */; };
+		E8E32D011CABC526006CCC51 /* UIImageView+HeaderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CFF1CABC526006CCC51 /* UIImageView+HeaderImageView.m */; };
+		F91A5CC775DAA061530761F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208CD1E82535D7FD9525A69 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8E32CDF1CABC46D006CCC51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E32CBD1CABC46C006CCC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E32CC41CABC46C006CCC51;
+			remoteInfo = XHGCircleImageView;
+		};
+		E8E32CEA1CABC46D006CCC51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E32CBD1CABC46C006CCC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E32CC41CABC46C006CCC51;
+			remoteInfo = XHGCircleImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DFDF05F6BA96758EE7AABAD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		325D1EED88B5B99BDF184ABD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B208CD1E82535D7FD9525A69 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E32CC51CABC46C006CCC51 /* XHGCircleImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHGCircleImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E32CC91CABC46C006CCC51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E32CCB1CABC46C006CCC51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8E32CCC1CABC46C006CCC51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8E32CCE1CABC46C006CCC51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8E32CCF1CABC46C006CCC51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8E32CD21CABC46C006CCC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8E32CD41CABC46C006CCC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8E32CD71CABC46C006CCC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8E32CD91CABC46C006CCC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E32CDE1CABC46D006CCC51 /* XHGCircleImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHGCircleImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E32CE21CABC46D006CCC51 /* XHGCircleImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHGCircleImageViewTests.m; sourceTree = "<group>"; };
+		E8E32CE41CABC46D006CCC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E32CE91CABC46D006CCC51 /* XHGCircleImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHGCircleImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E32CED1CABC46D006CCC51 /* XHGCircleImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHGCircleImageViewUITests.m; sourceTree = "<group>"; };
+		E8E32CEF1CABC46D006CCC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E32CFC1CABC526006CCC51 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E8E32CFD1CABC526006CCC51 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		E8E32CFE1CABC526006CCC51 /* UIImageView+HeaderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HeaderImageView.h"; sourceTree = "<group>"; };
+		E8E32CFF1CABC526006CCC51 /* UIImageView+HeaderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HeaderImageView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E32CC21CABC46C006CCC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91A5CC775DAA061530761F9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E32CDB1CABC46D006CCC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E32CE61CABC46D006CCC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD3749E794DA289E50C469D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B208CD1E82535D7FD9525A69 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230AB1DB1357AE6ED7BD7D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DFDF05F6BA96758EE7AABAD /* Pods.debug.xcconfig */,
+				325D1EED88B5B99BDF184ABD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8E32CBC1CABC46C006CCC51 = {
+			isa = PBXGroup;
+			children = (
+				E8E32CC71CABC46C006CCC51 /* XHGCircleImageView */,
+				E8E32CE11CABC46D006CCC51 /* XHGCircleImageViewTests */,
+				E8E32CEC1CABC46D006CCC51 /* XHGCircleImageViewUITests */,
+				E8E32CC61CABC46C006CCC51 /* Products */,
+				230AB1DB1357AE6ED7BD7D7E /* Pods */,
+				0CD3749E794DA289E50C469D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E32CC61CABC46C006CCC51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32CC51CABC46C006CCC51 /* XHGCircleImageView.app */,
+				E8E32CDE1CABC46D006CCC51 /* XHGCircleImageViewTests.xctest */,
+				E8E32CE91CABC46D006CCC51 /* XHGCircleImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E32CC71CABC46C006CCC51 /* XHGCircleImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32CFB1CABC511006CCC51 /* Categroty */,
+				E8E32CCB1CABC46C006CCC51 /* AppDelegate.h */,
+				E8E32CCC1CABC46C006CCC51 /* AppDelegate.m */,
+				E8E32CCE1CABC46C006CCC51 /* ViewController.h */,
+				E8E32CCF1CABC46C006CCC51 /* ViewController.m */,
+				E8E32CD11CABC46C006CCC51 /* Main.storyboard */,
+				E8E32CD41CABC46C006CCC51 /* Assets.xcassets */,
+				E8E32CD61CABC46C006CCC51 /* LaunchScreen.storyboard */,
+				E8E32CD91CABC46C006CCC51 /* Info.plist */,
+				E8E32CC81CABC46C006CCC51 /* Supporting Files */,
+			);
+			path = XHGCircleImageView;
+			sourceTree = "<group>";
+		};
+		E8E32CC81CABC46C006CCC51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32CC91CABC46C006CCC51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8E32CE11CABC46D006CCC51 /* XHGCircleImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32CE21CABC46D006CCC51 /* XHGCircleImageViewTests.m */,
+				E8E32CE41CABC46D006CCC51 /* Info.plist */,
+			);
+			path = XHGCircleImageViewTests;
+			sourceTree = "<group>";
+		};
+		E8E32CEC1CABC46D006CCC51 /* XHGCircleImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32CED1CABC46D006CCC51 /* XHGCircleImageViewUITests.m */,
+				E8E32CEF1CABC46D006CCC51 /* Info.plist */,
+			);
+			path = XHGCircleImageViewUITests;
+			sourceTree = "<group>";
+		};
+		E8E32CFB1CABC511006CCC51 /* Categroty */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32CFC1CABC526006CCC51 /* UIImage+Image.h */,
+				E8E32CFD1CABC526006CCC51 /* UIImage+Image.m */,
+				E8E32CFE1CABC526006CCC51 /* UIImageView+HeaderImageView.h */,
+				E8E32CFF1CABC526006CCC51 /* UIImageView+HeaderImageView.m */,
+			);
+			path = Categroty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E32CC41CABC46C006CCC51 /* XHGCircleImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E32CF21CABC46D006CCC51 /* Build configuration list for PBXNativeTarget "XHGCircleImageView" */;
+			buildPhases = (
+				A9B83787E34BB345760BB51F /* Check Pods Manifest.lock */,
+				E8E32CC11CABC46C006CCC51 /* Sources */,
+				E8E32CC21CABC46C006CCC51 /* Frameworks */,
+				E8E32CC31CABC46C006CCC51 /* Resources */,
+				2A5C45656D2B792A0568BF76 /* Embed Pods Frameworks */,
+				3245B717758980239E73ED24 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHGCircleImageView;
+			productName = XHGCircleImageView;
+			productReference = E8E32CC51CABC46C006CCC51 /* XHGCircleImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E32CDD1CABC46D006CCC51 /* XHGCircleImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E32CF51CABC46D006CCC51 /* Build configuration list for PBXNativeTarget "XHGCircleImageViewTests" */;
+			buildPhases = (
+				E8E32CDA1CABC46D006CCC51 /* Sources */,
+				E8E32CDB1CABC46D006CCC51 /* Frameworks */,
+				E8E32CDC1CABC46D006CCC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E32CE01CABC46D006CCC51 /* PBXTargetDependency */,
+			);
+			name = XHGCircleImageViewTests;
+			productName = XHGCircleImageViewTests;
+			productReference = E8E32CDE1CABC46D006CCC51 /* XHGCircleImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8E32CE81CABC46D006CCC51 /* XHGCircleImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E32CF81CABC46D006CCC51 /* Build configuration list for PBXNativeTarget "XHGCircleImageViewUITests" */;
+			buildPhases = (
+				E8E32CE51CABC46D006CCC51 /* Sources */,
+				E8E32CE61CABC46D006CCC51 /* Frameworks */,
+				E8E32CE71CABC46D006CCC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E32CEB1CABC46D006CCC51 /* PBXTargetDependency */,
+			);
+			name = XHGCircleImageViewUITests;
+			productName = XHGCircleImageViewUITests;
+			productReference = E8E32CE91CABC46D006CCC51 /* XHGCircleImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E32CBD1CABC46C006CCC51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaohuge;
+				TargetAttributes = {
+					E8E32CC41CABC46C006CCC51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NM8W4GNCT7;
+					};
+					E8E32CDD1CABC46D006CCC51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NM8W4GNCT7;
+						TestTargetID = E8E32CC41CABC46C006CCC51;
+					};
+					E8E32CE81CABC46D006CCC51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NM8W4GNCT7;
+						TestTargetID = E8E32CC41CABC46C006CCC51;
+					};
+				};
+			};
+			buildConfigurationList = E8E32CC01CABC46C006CCC51 /* Build configuration list for PBXProject "XHGCircleImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E32CBC1CABC46C006CCC51;
+			productRefGroup = E8E32CC61CABC46C006CCC51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E32CC41CABC46C006CCC51 /* XHGCircleImageView */,
+				E8E32CDD1CABC46D006CCC51 /* XHGCircleImageViewTests */,
+				E8E32CE81CABC46D006CCC51 /* XHGCircleImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E32CC31CABC46C006CCC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E32CD81CABC46C006CCC51 /* LaunchScreen.storyboard in Resources */,
+				E8E32CD51CABC46C006CCC51 /* Assets.xcassets in Resources */,
+				E8E32CD31CABC46C006CCC51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E32CDC1CABC46D006CCC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E32CE71CABC46D006CCC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5C45656D2B792A0568BF76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3245B717758980239E73ED24 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B83787E34BB345760BB51F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E32CC11CABC46C006CCC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E32D011CABC526006CCC51 /* UIImageView+HeaderImageView.m in Sources */,
+				E8E32CD01CABC46C006CCC51 /* ViewController.m in Sources */,
+				E8E32D001CABC526006CCC51 /* UIImage+Image.m in Sources */,
+				E8E32CCD1CABC46C006CCC51 /* AppDelegate.m in Sources */,
+				E8E32CCA1CABC46C006CCC51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E32CDA1CABC46D006CCC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E32CE31CABC46D006CCC51 /* XHGCircleImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E32CE51CABC46D006CCC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E32CEE1CABC46D006CCC51 /* XHGCircleImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8E32CE01CABC46D006CCC51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E32CC41CABC46C006CCC51 /* XHGCircleImageView */;
+			targetProxy = E8E32CDF1CABC46D006CCC51 /* PBXContainerItemProxy */;
+		};
+		E8E32CEB1CABC46D006CCC51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E32CC41CABC46C006CCC51 /* XHGCircleImageView */;
+			targetProxy = E8E32CEA1CABC46D006CCC51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8E32CD11CABC46C006CCC51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E32CD21CABC46C006CCC51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8E32CD61CABC46C006CCC51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E32CD71CABC46C006CCC51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E32CF01CABC46D006CCC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8E32CF11CABC46D006CCC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E32CF31CABC46D006CCC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFDF05F6BA96758EE7AABAD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHGCircleImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGCircleImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8E32CF41CABC46D006CCC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325D1EED88B5B99BDF184ABD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHGCircleImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGCircleImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8E32CF61CABC46D006CCC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHGCircleImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGCircleImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHGCircleImageView.app/XHGCircleImageView";
+			};
+			name = Debug;
+		};
+		E8E32CF71CABC46D006CCC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHGCircleImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGCircleImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHGCircleImageView.app/XHGCircleImageView";
+			};
+			name = Release;
+		};
+		E8E32CF91CABC46D006CCC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XHGCircleImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGCircleImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHGCircleImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E8E32CFA1CABC46D006CCC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XHGCircleImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGCircleImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHGCircleImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E32CC01CABC46C006CCC51 /* Build configuration list for PBXProject "XHGCircleImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E32CF01CABC46D006CCC51 /* Debug */,
+				E8E32CF11CABC46D006CCC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E32CF21CABC46D006CCC51 /* Build configuration list for PBXNativeTarget "XHGCircleImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E32CF31CABC46D006CCC51 /* Debug */,
+				E8E32CF41CABC46D006CCC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E32CF51CABC46D006CCC51 /* Build configuration list for PBXNativeTarget "XHGCircleImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E32CF61CABC46D006CCC51 /* Debug */,
+				E8E32CF71CABC46D006CCC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E32CF81CABC46D006CCC51 /* Build configuration list for PBXNativeTarget "XHGCircleImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E32CF91CABC46D006CCC51 /* Debug */,
+				E8E32CFA1CABC46D006CCC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E32CBD1CABC46C006CCC51 /* Project object */;
+}
