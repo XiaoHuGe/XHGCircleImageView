@@ -15,8 +15,8 @@
 		E8E32CD81CABC46C006CCC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E32CD61CABC46C006CCC51 /* LaunchScreen.storyboard */; };
 		E8E32CE31CABC46D006CCC51 /* XHGCircleImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CE21CABC46D006CCC51 /* XHGCircleImageViewTests.m */; };
 		E8E32CEE1CABC46D006CCC51 /* XHGCircleImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CED1CABC46D006CCC51 /* XHGCircleImageViewUITests.m */; };
-		E8E32D001CABC526006CCC51 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CFD1CABC526006CCC51 /* UIImage+Image.m */; };
-		E8E32D011CABC526006CCC51 /* UIImageView+HeaderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32CFF1CABC526006CCC51 /* UIImageView+HeaderImageView.m */; };
+		E8E32D0E1CABCA2F006CCC51 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32D0B1CABCA2F006CCC51 /* UIImage+Image.m */; };
+		E8E32D0F1CABCA2F006CCC51 /* UIImageView+HeaderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32D0D1CABCA2F006CCC51 /* UIImageView+HeaderImageView.m */; };
 		F91A5CC775DAA061530761F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B208CD1E82535D7FD9525A69 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,10 +57,10 @@
 		E8E32CE91CABC46D006CCC51 /* XHGCircleImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHGCircleImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E32CED1CABC46D006CCC51 /* XHGCircleImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHGCircleImageViewUITests.m; sourceTree = "<group>"; };
 		E8E32CEF1CABC46D006CCC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8E32CFC1CABC526006CCC51 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
-		E8E32CFD1CABC526006CCC51 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
-		E8E32CFE1CABC526006CCC51 /* UIImageView+HeaderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HeaderImageView.h"; sourceTree = "<group>"; };
-		E8E32CFF1CABC526006CCC51 /* UIImageView+HeaderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HeaderImageView.m"; sourceTree = "<group>"; };
+		E8E32D0A1CABCA2F006CCC51 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E8E32D0B1CABCA2F006CCC51 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		E8E32D0C1CABCA2F006CCC51 /* UIImageView+HeaderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HeaderImageView.h"; sourceTree = "<group>"; };
+		E8E32D0D1CABCA2F006CCC51 /* UIImageView+HeaderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HeaderImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		E8E32CC71CABC46C006CCC51 /* XHGCircleImageView */ = {
 			isa = PBXGroup;
 			children = (
-				E8E32CFB1CABC511006CCC51 /* Categroty */,
+				E8E32D091CABCA2F006CCC51 /* Categroty */,
 				E8E32CCB1CABC46C006CCC51 /* AppDelegate.h */,
 				E8E32CCC1CABC46C006CCC51 /* AppDelegate.m */,
 				E8E32CCE1CABC46C006CCC51 /* ViewController.h */,
@@ -171,15 +171,16 @@
 			path = XHGCircleImageViewUITests;
 			sourceTree = "<group>";
 		};
-		E8E32CFB1CABC511006CCC51 /* Categroty */ = {
+		E8E32D091CABCA2F006CCC51 /* Categroty */ = {
 			isa = PBXGroup;
 			children = (
-				E8E32CFC1CABC526006CCC51 /* UIImage+Image.h */,
-				E8E32CFD1CABC526006CCC51 /* UIImage+Image.m */,
-				E8E32CFE1CABC526006CCC51 /* UIImageView+HeaderImageView.h */,
-				E8E32CFF1CABC526006CCC51 /* UIImageView+HeaderImageView.m */,
+				E8E32D0A1CABCA2F006CCC51 /* UIImage+Image.h */,
+				E8E32D0B1CABCA2F006CCC51 /* UIImage+Image.m */,
+				E8E32D0C1CABCA2F006CCC51 /* UIImageView+HeaderImageView.h */,
+				E8E32D0D1CABCA2F006CCC51 /* UIImageView+HeaderImageView.m */,
 			);
-			path = Categroty;
+			name = Categroty;
+			path = ../../Categroty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,9 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E32D011CABC526006CCC51 /* UIImageView+HeaderImageView.m in Sources */,
+				E8E32D0F1CABCA2F006CCC51 /* UIImageView+HeaderImageView.m in Sources */,
 				E8E32CD01CABC46C006CCC51 /* ViewController.m in Sources */,
-				E8E32D001CABC526006CCC51 /* UIImage+Image.m in Sources */,
+				E8E32D0E1CABCA2F006CCC51 /* UIImage+Image.m in Sources */,
 				E8E32CCD1CABC46C006CCC51 /* AppDelegate.m in Sources */,
 				E8E32CCA1CABC46C006CCC51 /* main.m in Sources */,
 			);
